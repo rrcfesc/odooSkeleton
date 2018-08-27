@@ -1,2 +1,15 @@
 .vscode
 .vscode/*
+database/*
+database/*.*
+database/PG_VERSION
+proyecto
+proyecto/*
+addons-vauxoo
+addons-vauxoo/*
+enterprise/*
+enterprise
+mexico
+mexico/*
+server-tools/*
+server-tools
