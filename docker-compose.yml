@@ -8,7 +8,7 @@ services:
       - ~/.ssh:/home/odoo/.ssh
       - ./odoo-repo:/home/odoo/odoo-repo
       - ./proyecto:/home/odoo/mymodules
-      - ./.odoorc:/home/odoo/.odoorc
+      - ./config:/home/odoo/config
       - ./enterprise:/home/odoo/enterprise
       - ./mexico:/home/odoo/mexico
       - ./addons-vauxoo:/home/odoo/addons-vauxoo

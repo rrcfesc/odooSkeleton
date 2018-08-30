@@ -75,4 +75,11 @@ drwxr-xr-x 22 odoo odoo  748 ago 27 18:31 odoo-repo
 drwx------ 20 odoo odoo  680 ago 22 20:20 .ssh
 ```
 
+# Execute Odoo
+
+```bash
+$ ./odoo-repo/odoo-bin -c ~/config/odoo.conf
+```
+If you need update modules pass the parameters on this command line
+
 @author Ricardo Ruiz <ricardojesus.ruizcruz@gmail.com>
