@@ -14,3 +14,4 @@ db_filter = odooskeleton
 demo = {}
 email_from = False
 without_demo = True
+list_db = False

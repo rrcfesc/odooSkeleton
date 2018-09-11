@@ -2,12 +2,14 @@ version: '2'
 services:
   web:
     image: rrcfesc/pythonodoodocker:11.0
+    restart : always
     ports:
       - "8069:8069"
     volumes:
       - ~/.ssh:/home/odoo/.ssh
       - ./odoo-repo:/home/odoo/odoo-repo
       - ./proyecto:/home/odoo/mymodules
+      - ./.local:/home/odoo/.local
       - ./config:/home/odoo/config
       - ./enterprise:/home/odoo/enterprise
       - ./mexico:/home/odoo/mexico
@@ -20,6 +22,7 @@ services:
       - postgresql
   postgresql:
     image: postgres:10
+    restart : always
     container_name: "odooskeleton_db"
     ports:
       - 5432:5432

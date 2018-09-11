@@ -2,10 +2,9 @@
 This is my skeleton of odoo repository to start development Odoo CE and Odoo EE.
 
 ## Configuration
-Create a file called .odoorc and copy the content of .odoorc.dist
+Create the follows Folders:
 
-Create the follows Foldes:
-
+    - .local (folder)
     - odoo-repo
     - proyecto
     - addons-vauxoo
@@ -13,6 +12,12 @@ Create the follows Foldes:
     - server-tools
     - database
     - enterprise
+
+Rename the follow file changing the values as you need
+
+```bash
+$ cp config/odoo.conf.dist config/odoo.conf
+```
 
 Why?
 

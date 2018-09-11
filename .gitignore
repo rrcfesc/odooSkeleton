@@ -15,3 +15,6 @@ server-tools/*
 server-tools
 odoo-repo
 odoo-repo/*
+config/odoo.conf
+.local
+.local/*
